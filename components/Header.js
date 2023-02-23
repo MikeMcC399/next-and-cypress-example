@@ -7,12 +7,12 @@ const linkStyle = {
 export default function Header() {
   return (
     <div>
-      <Link href="/">
-        <a style={linkStyle}>Home</a>
+      <Link href="/" style={linkStyle}>
+        Home
       </Link>
-      <Link href="/about">
-        <a style={linkStyle}>About</a>
+      <Link href="/about" style={linkStyle}>
+        About
       </Link>
     </div>
-  )
+  );
 }
