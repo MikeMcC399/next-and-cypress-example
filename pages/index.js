@@ -9,7 +9,7 @@ const Index = props => (
       {props.shows.map(show => (
         <li key={show.id}>
           <Link href="/p/[id]" as={`/p/${show.id}`}>
-            <a>{show.name}</a>
+            {show.name}
           </Link>
         </li>
       ))}
